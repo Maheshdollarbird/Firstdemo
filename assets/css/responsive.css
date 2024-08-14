@@ -1,0 +1,42 @@
+
+@media only screen and (max-width: 768px) {
+    .teste_class{
+        display: grid;
+        text-align: center;
+        
+      }
+      .vertical-heading {
+        transform: none;
+        margin-right: 20px;
+        margin-top: 100px;
+    }
+   
+    .txt-clor{
+        display: none;
+    }
+    .img-order_1{
+        order: 1;
+
+    }
+    .img-order_2{
+        order: 2;
+    }
+    .img-order_3{
+        order: 3;
+    }
+    .img-order_4{
+        order: 4;
+    }
+    .img-order_5{order: 5;}
+    .img-order_6{order: 6;}
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+      .txt-clor{
+        display: none;
+    }
+    .footer_section{
+        columns: md 6px;
+    }
+  }
